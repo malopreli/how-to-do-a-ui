@@ -36,7 +36,7 @@ video_html = """
 
 		</style>	
 		<video autoplay muted loop id="myVideo">
-		  <source src="https://www.shutterstock.com/shutterstock/videos/8617789/preview/stock-footage-hacker-code-running-down-a-computer-screen-terminal.webm">
+		  <source src="https://media.gettyimages.com/id/1456772315/video/perfectly-seamless-loop-digital-screen-with-encryption-data-background-big-data-with-digital.mp4?s=mp4-640x640-gi&k=20&c=hnFAQ7vVz_eLZK2NwSWriwP7AfaaHhSZaZl-4CxQOGw=">
 		  Your browser does not support HTML5 video.
 		</video>
         """
