@@ -9,4 +9,4 @@ def get_base64_video(video_path):
         data = f.read()
     return base64.b64encode(data).decode()
 
-video_base64 = get_base64_video("....mp4")
+video_base64 = get_base64_video("1032549521-preview.mp4")
