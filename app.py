@@ -33,7 +33,3 @@ video.bg-video {{
 """
 
 st.markdown(background_video_html, unsafe_allow_html=True)
-
-# --- Your Streamlit UI ---
-st.title("My App with Video Background")
-st.write("Your content goes on top of the video 🌟")
