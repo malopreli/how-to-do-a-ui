@@ -1,6 +1,4 @@
 import streamlit as st
-st.title(" welcome hacker ")
-
 import base64
 
 # --- Load local video and convert to base64 ---
@@ -11,6 +9,7 @@ def get_base64_video(video_path):
 
 video_base64 = get_base64_video("1032549521-preview.mp4")
 
+# --- Inject HTML + CSS video background ---
 background_video_html = f"""
 <style>
 [data-testid="stAppViewContainer"] {{
@@ -32,4 +31,9 @@ video.bg-video {{
 </video>
 """
 
+# inject background BEFORE any Streamlit component
 st.markdown(background_video_html, unsafe_allow_html=True)
+
+# Now your UI
+st.title("Welcome hacker")
+st.write("Your content goes here.")
