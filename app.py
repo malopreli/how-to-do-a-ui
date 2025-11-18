@@ -36,4 +36,3 @@ st.markdown(background_video_html, unsafe_allow_html=True)
 
 # Now your UI
 st.title("Welcome hacker")
-st.write("Your content goes here.")
